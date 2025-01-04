@@ -25,7 +25,7 @@ withDefaults(defineProps<Props>(), {
 </script>
 
 <template>
-  <article class="group border dark:border-gray-800  m-2 rounded-2xl overflow-hidden shadow-sm text-zinc-700 dark:text-zinc-300  ">
+  <article class="group border dark:border-gray-800  m-2 rounded-2xl overflow-hidden shadow-md text-zinc-700 dark:text-zinc-300 ">
     <NuxtLink :to="path" class="grid grid-cols-1 sm:grid-cols-10 gap-1">
       <div class="sm:col-span-3">
         <NuxtImg
@@ -54,7 +54,7 @@ withDefaults(defineProps<Props>(), {
             </p>
           </div>
         </div>
-        <div class="flex group-hover:underline text-sky-700 dark:text-sky-400 items-center pt-2">
+        <div class="flex group-hover:underline text-sky-700 dark:text-sky-400 items-center pt-2 text-sm">
           <p>Read More</p>
           <LogoArrow />
         </div>

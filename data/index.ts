@@ -1,22 +1,22 @@
 export const navbarData = {
-  homeTitle: 'Riyad\'s Blog',
+  homeTitle: 'Kurniawanr\'s Blog',
 }
 
 export const footerData = {
-  author: 'Al Asad Nur Riyad',
-  aboutAuthor: 'Hi! I am Riyad, a Tech enthusiast, problem solver and software engineer. Currently working at Appscode Inc.',
-  authorInterest: 'I have a fair amount of knowledge of Javascript, Typescript, VueJs, and Nuxt. If you have an interesting idea, either open source or paid let\'s connect.',
-  aboutTheSite: 'This is a personal blog site built with Nuxt3, TailwindCSS, NuxtContent, Nuxt Icon. Currently it\'s deployed in Vercel.',
+  author: 'Kurniawan Ramdhani',
+  aboutAuthor: 'Hi! I am Kurniawan, a Tech enthusiast, problem solver and software engineer. Currently working at Dropsuite Pte Ltd.',
+  authorInterest: 'I have a fair amount of knowledge of Infrastructure and Cloud. If you have an interesting idea let\'s connect!',
+  // aboutTheSite: 'This is a personal blog site built with Nuxt3, TailwindCSS, NuxtContent, Nuxt Icon. Currently it\'s deployed in Vercel.',
 }
 
 export const homePage = {
-  title: 'Welcome To My Blog Site',
-  description: 'Get Web Development, Javascript, Typescript, NodeJs, Vue, and Nuxt, Related Articles, Tips, Learning resources and more.',
+  title: 'Welcome to my personal Blog!',
+  description: 'Get Infrastructure, Cloud, DevOps/SRE Related Articles, Tips, Learning resources and more. everything here is my personal project.',
 }
 
 export const blogsPage = {
   title: 'All Blogs',
-  description: 'Here you will find all the blog posts I have written & published on this site.',
+  description: 'Here you will find all the blog posts I have written & published on this site. Everything is experimenting by myself, and probably confusing a bit.',
 }
 
 export const categoryPage = {
@@ -25,9 +25,9 @@ export const categoryPage = {
 }
 
 export const aboutPage = {
-  title: 'Al Asad Nur Riyad',
-  description: 'Software Engineer, Problem Solver, Web Enthusiast.',
-  aboutMe: 'Hello, fellow human! I\'m a software wizard who spends most of his day crafting code spells at @AppsCode in the Bytebuilders team. When I\'m not crafting code, you can find me summoning solutions to problems on online judges. Just don\'t ask me to cast any love spells, my magic only works on machines!',
+  title: 'Kurniawan Ramdhani',
+  description: 'Cloud and Infrastructure Enthusiast',
+  aboutMe: 'Hello there! 👋 I recently graduated with a Bachelors degree in Informatics from Indonesia. Currently, I\'m delving into web development with a focus on Backend technologies and its Infrastructure. Additionally, I\'m exploring the realm of DevOps, learning about various tools and experimenting with their usage.',
 }
 
 export const seoData = {
