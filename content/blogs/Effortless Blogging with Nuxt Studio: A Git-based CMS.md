@@ -1,13 +1,14 @@
 ---
-title: "Effortless Blogging with Nuxt Studio: A Git-Based CMS"
-date: 5th Jan 2025
-description: Learn how Nuxt Studio simplifies blogging with a Git-based CMS
-image: /blogs-img/nuxt.jpg
-alt: Nuxt Studio
-ogImage: /blogs-img/nuxt.jpg
+title: How To Fix TailwindCSS Intellisense In Nuxt3 Project
+date: 26th Jan 2023
+description: In Nuxt3 project tailwind css intellisense doesn't seems to work
+  properly. In this blog I will share a workaround to fix this issue.
+image: /blogs-img/blog2.jpg
+alt: Hwo to fix tailwind intellisense in nuxt3 project
+ogImage: /blogs-img/blog2.jpg
 tags:
   - nuxt
-  - nuxtstudio
+  - tailwindcss
 published: true
 ---
 
