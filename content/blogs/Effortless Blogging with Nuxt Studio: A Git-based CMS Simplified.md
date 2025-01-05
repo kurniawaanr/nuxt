@@ -2,11 +2,9 @@
 title: "Effortless Blogging with Nuxt Studio: A Git-Based CMS Simplified"
 date: 5th Jan 2025
 description: Learn how Nuxt Studio simplifies blogging with a Git-based CMS,
-  making it easy to create, manage, and publish your content with a streamlined,
-  developer-friendly workflow.
 image: /blogs-img/nuxt.jpg
 alt: Nuxt Studio
-ogImage: /blogs-img/blog2.jpg
+ogImage: /blogs-img/nuxt.jpg
 tags:
   - nuxt
   - nuxtstudio
