@@ -16,7 +16,7 @@ export const homePage = {
 
 export const blogsPage = {
   title: 'All Blogs',
-  description: 'Here you will find all the blog posts I have written & published on this site. Everything is experimenting by myself, and probably confusing a bit.',
+  description: 'Here you will find all the blog posts I have written & published on this site. Everything is experimenting by myself, and probably a bit confusing.',
 }
 
 export const categoryPage = {
