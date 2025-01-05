@@ -21,8 +21,6 @@ published: true
 
 Nuxt Studio is a content management tool built on Nuxt.js. It lets you manage your blog using Git, eliminating the need for a complex database setup. Nuxt Studio is simple to use and doesn’t require a database. You can focus on writing and managing your blog with Git while avoiding the hassle of database configuration.
 
-In our nuxt project we have a `.nuxt` directory. Nuxt uses the `.nuxt/` directory in development to generate your Vue application. And if we try to look properly there is also a file called `.nuxt/tailwind.config.cjs`, So tailwind find to config file in the same project, one is in your root directory and another one is in you `.nuxt` directory.
-
 ### Setting Up Nuxt Studio
 
 Setting up Nuxt Studio is simple, you just have to visit [Nuxt Studio](https://nuxt.studio/docs/get-started/setup) and create new project. There are 2 options on this section, either you want to start using your personal git repository or using template that nuxt studio provide. in this case i'm gonna use personal git repository and host it on vercel. then the next step is to install nuxt studio module with this command on project folder
