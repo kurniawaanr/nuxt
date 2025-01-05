@@ -58,7 +58,15 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@formkit/auto-animate',
     '@stefanobartoletti/nuxt-social-share',
+    '@nuxthq/studio',
   ],
+  studio: {
+    gitInfo: {
+      name: 'nuxt',
+      owner: 'kurniawaanr',
+      url: 'https://github.com/kurniawaanr/nuxt',
+    }
+  },
 
   content: {
     highlight: {
