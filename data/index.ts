@@ -4,14 +4,14 @@ export const navbarData = {
 
 export const footerData = {
   author: 'Kurniawan Ramdhani',
-  aboutAuthor: 'Hi! I am Kurniawan, a Tech enthusiast, problem solver and software engineer. Currently working at Dropsuite Pte Ltd.',
+  aboutAuthor: 'Hi! I am Kurniawan, a Tech enthusiast who loves exploring realm of DevOps/SRE. Currently working as Observability Engineer at Dropsuite.',
   authorInterest: 'I have a fair amount of knowledge of Infrastructure and Cloud. If you have an interesting idea let\'s connect!',
-  // aboutTheSite: 'This is a personal blog site built with Nuxt3, TailwindCSS, NuxtContent, Nuxt Icon. Currently it\'s deployed in Vercel.',
+  aboutTheSite: 'This is a personal blog site built with Nuxt3, TailwindCSS, NuxtContent, Nuxt Icon. Currently it\'s deployed in Vercel.',
 }
 
 export const homePage = {
-  title: 'Welcome to my personal Blog!',
-  description: 'Get Infrastructure, Cloud, DevOps/SRE Related Articles, Tips, Learning resources and more. everything here is my personal project.',
+  title: 'Welcome to my tech-sandbox',
+  description: 'This blog serves as my personal documentation of everything I learn on my tech journey. I aim to share insights, tips, and experiences to help myself and others grow in the world of tech.',
 }
 
 export const blogsPage = {
@@ -31,13 +31,13 @@ export const aboutPage = {
 }
 
 export const seoData = {
-  description: 'Riyad, Software Engineer at AppsCode, with over 2.5+ years experience in software development.',
-  ogTitle: 'Riyad codes and helps others learn Javascript, Typescript, Vue, Nuxt, & Problem Solving',
-  twitterDescription: 'My blog website, where I play around with Nuxt, Vue, and more and showcase my blog, resources, etc',
+  description: 'Kurniawan, tech enthusiast focusing on infrastructure',
+  ogTitle: 'Kurniawan, learning and exploring about IT infrastructure and cloud',
+  twitterDescription: 'My blog website, where I play around with DevOps/SRE and showcase my blog, resources, etc',
   image: 'https://res.cloudinary.com/dmecmyphj/image/upload/v1673548905/nuxt-blog/cover_ntgs6u.webp',
-  mySite: 'https://blog-nurriyad.vercel.app',
-  twitterHandle: '@qdnvubp',
-  mailAddress: 'asadnurriyad@gmail.com',
+  mySite: 'https://kurniawanr.my.id',
+  twitterHandle: '@kurniawaanr',
+  mailAddress: 'pitesekur@yahoo.com',
 }
 
 export const siteMetaData = [
