@@ -92,7 +92,4 @@ ubuntu1 | SUCCESS => {
 ```
 
 that's it! we are done setting up Ansible on our Local Environment.
-
-:br
-
 In the next post, I'll be exploring Ansible playbooks to deploy applications.
