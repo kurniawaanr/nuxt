@@ -53,7 +53,7 @@ ansible --version
 
 > you dont have to install ansible on each VMs, because ansible is **agentless**
 
-#### Setting up the Inventory File
+### Setting up the Inventory File
 
 This `inventory file` contains information about the hosts that we created before (Ubuntu VMs). The inventory file also often used to set variables that will be valid only for specific host or groups, in order to be used within `playbooks` and `templates`. to edit contents of Ansible inventory open it on `/etc/ansible/hosts` if this folder path doesnt exist you just need to create it.
 
