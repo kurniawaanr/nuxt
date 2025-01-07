@@ -27,8 +27,24 @@ These are requirement for Ansible setup:
 
 ### Setting up Ubuntu
 
-setting up Ubuntu VM is a simple process, im using Virtualbox for launch this VM since i have plan to create multi node in this article im gonna setup 2 Ubuntu VM as ansible nodes. all you need to setup is attaching NAT Network for internet connection, and Host-only Network for communicate with host machine. then update and upgrade your Ubuntu VM using
+setting up Ubuntu VM is a simple process, i'm using Virtualbox for launch this VM since i have plan to create multi node in this article i'm gonna setup 2 Ubuntu VM as ansible nodes. all you need to setup is attaching NAT Network for internet connection, and Host-only Network for communicate with host machine. then update and upgrade your Ubuntu VM using
 
 ```bash
 sudo apt update && sudo apt upgrade
 ```
+
+### Setting up ansible
+
+install ansible on your local machine, since im using mac i'll be use brew to install it on my mac
+
+```bash
+brew install ansible
+```
+
+then validate Ansible installation using:
+
+```bash
+ansible --version
+```
+
+> you don't have to install ansible on each VMs, because ansible is **agentless**
