@@ -25,9 +25,7 @@ These are requirement for Ansible setup:
 - Ubuntu VM.
 - Basic command-line knowledge.
 
-### Setting up Ubuntu and Installing Ansible on Local Machine
-
-#### Setting up Ubuntu
+### Setting up Ubuntu
 
 setting up Ubuntu VM is a simple process, im using Virtualbox for launch this VM since i have plan to create multi node in this article im gonna setup 2 Ubuntu VM as ansible nodes. all you need to setup is attaching NAT Network for internet connection, and Host-only Network for communicate with host machine. then update and upgrade your Ubuntu VM using
 
@@ -39,7 +37,7 @@ then upgrade python and match it with ansible requirement.
 
 > make sure you configure the network properly until you can ssh into each VMs
 
-#### Setting up ansible
+### Setting up ansible
 
 install ansible on your local machine, since im using mac i will be use brew to install it on my mac
 
