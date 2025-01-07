@@ -47,7 +47,7 @@ install ansible on your local machine, since i'm using mac i'll be use brew to i
 brew install ansible
 ```
 
-then validate Ansible installation using
+then validate Ansible installation using:
 
 ```bash
 ansible --version
