@@ -2,9 +2,9 @@
 title: "Getting Started with Ansible: Setting up Locally for Beginners"
 date: 7th Jan 2025
 description: Learn how to setting up Ansible in your Local Environment
-image: /blogs-img/ansble.png
+image: /blogs-img/ansble.jpg
 alt: Ansible
-ogImage: /blogs-img/ansble.png
+ogImage: /blogs-img/ansble.jpg
 tags:
   - Getting Started
   - Ansible
