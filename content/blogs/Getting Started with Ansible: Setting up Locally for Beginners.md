@@ -29,7 +29,7 @@ These are requirement for Ansible setup:
 
 setting up Ubuntu VM is a simple process, im using Virtualbox for launch this VM since i have plan to create multi node in this article im gonna setup 2 Ubuntu VM as ansible nodes. all you need to setup is attaching NAT Network for internet connection, and Host-only Network for communicate with host machine. then update and upgrade your Ubuntu VM using
 
-```bash
+```
 sudo apt update && sudo apt upgrade
 ```
 
@@ -41,13 +41,13 @@ then upgrade python and match it with ansible requirement.
 
 install ansible on your local machine, since im using mac i will be use brew to install it on my mac
 
-```bash
+```
 brew install ansible
 ```
 
 then validate Ansible installation using:
 
-```bash
+```
 ansible --version
 ```
 
@@ -61,7 +61,7 @@ This `inventory file` contains information about the hosts that we created befor
 
 since i have 2 Ubuntu VMs this is my inventory file configuration, i define a group named `nodes` with 2 different VMs in it, each identified by a custom alis: `ubuntu1` and `ubuntu2` (im using the Ubuntu VM hostname for this). and be sure to assign the IPs with the IP addresses of your Ubuntu VMs on `ansible_host` and your username on each VMs on `ansible_user` .
 
-```bash [/etc/ansible/hosts]
+```
 [nodes]
 ubuntu1 ansible_host=192.168.0.11 ansible_user=kur
 ubuntu2 ansible_host=192.168.0.12 ansible_user=kur
@@ -72,13 +72,13 @@ ansible_python_interpreter=/usr/bin/python3
 
 the `all:vars` subgroup sets the `ansible_python_interpreter` host parameter that will be valid for all host included in this inventory. the purpose of this is to make sure the nodes uses the `/usr/bin/python3` (Python 3) executeable instead of `/usr/bin/python` (python 2.7). save the files then run this command to check the connection from your local machine into ansible nodes (VMs)
 
-```bash
+```
 ansible all -m ping -u root
 ```
 
 then the output will be like this:
 
-```bash
+```
 ubuntu2 | SUCCESS => {
     "changed": false,
     "ping": "pong"
