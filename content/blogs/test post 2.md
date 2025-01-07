@@ -25,7 +25,7 @@ These are requirement for Ansible setup:
 - Ubuntu VM.
 - Basic command-line knowledge.
 
-### Setting up Ubuntu
+#### Setting up Ubuntu
 
 setting up Ubuntu VM is a simple process, i'm using Virtualbox for launch this VM since i have plan to create multi node in this article i'm gonna setup 2 Ubuntu VM as ansible nodes. all you need to setup is attaching NAT Network for internet connection, and Host-only Network for communicate with host machine. then update and upgrade your Ubuntu VM using
 
@@ -33,7 +33,7 @@ setting up Ubuntu VM is a simple process, i'm using Virtualbox for launch this V
 sudo apt update && sudo apt upgrade
 ```
 
-### Setting up ansible
+#### Setting up ansible
 
 install ansible on your local machine, since im using mac i'll be use brew to install it on my mac
 
@@ -49,7 +49,7 @@ ansible --version
 
 > you don't have to install ansible on each VMs, because ansible is **agentless**
 
-### Setting up the Inventory File
+#### Setting up the Inventory File
 
 This `inventory file` contains information about the hosts that we created before (Ubuntu VMs). The inventory file also often used to set variables that will be valid only for specific host or groups, in order to be used within `playbooks` and `templates`. to edit contents of Ansible inventory open it on `/etc/ansible/hosts` if this folder path doesnt exist you just need to create it.
 
