@@ -2,9 +2,9 @@
 title: "test: 123"
 date: 5th Jan 2025
 description: Here you will lean how to connect your namecheap domain to vercel deployed app.
-image: /blogs-img/blog4.jpg
+image: /blogs-img/ansble.jpg
 alt: How To Connect You Namecheap Domain With Vercel Deployed App
-ogImage: /blogs-img/blog4.jpg
+ogImage: /blogs-img/ansble.jpg
 tags:
   - testing
   - testong
