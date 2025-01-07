@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with Ansible: Setting up Ansible in Local Environment"
-date: 5th Jan 2025
+date: 7th Jan 2025
 description: Learn how Nuxt Studio simplifies blogging with a Git-based CMS
 image: /blogs-img/ansble.jpg
 alt: Nuxt Studio
