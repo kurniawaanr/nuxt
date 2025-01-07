@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        spacegrotesk: ['Space Grotesk', 'sans-serif'],
+        funneldisplay: ['Funnel Display', 'sans-serif'],
       },
     },
   },

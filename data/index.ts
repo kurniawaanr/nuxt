@@ -1,5 +1,5 @@
 export const navbarData = {
-  homeTitle: 'Kurniawanr\'s Blog',
+  homeTitle: 'Kurniawan\'s Blog',
 }
 
 export const footerData = {
