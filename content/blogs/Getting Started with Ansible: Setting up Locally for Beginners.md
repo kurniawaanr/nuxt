@@ -57,7 +57,7 @@ ansible --version
 
 #### Setting up the Inventory File
 
-This &#x5F;inventory file&#x5F; contains information about the hosts that we created before (Ubuntu VMs). The inventory file also often used to set variables that will be valid only for specific host or groups, in order to be used within &#x5F;playbooks&#x5F; and &#x5F;templates_. to edit contents of Ansible inventory open it on `/etc/ansible/hosts` if this folder path doesn't exist you just need to create it.
+This `inventory file` contains information about the hosts that we created before (Ubuntu VMs). The inventory file also often used to set variables that will be valid only for specific host or groups, in order to be used within `playbooks` and `templates`. to edit contents of Ansible inventory open it on `/etc/ansible/hosts` if this folder path doesn't exist you just need to create it.
 
 > you are free to create inventory files in any location, but usually is on `/etc/ansible/hosts`
 
