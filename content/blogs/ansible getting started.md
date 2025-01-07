@@ -6,8 +6,8 @@ image: /blogs-img/ansble.jpg
 alt: Ansible
 ogImage: /blogs-img/ansble.jpg
 tags:
-  - Ansible
-  - GettingStarted
+  - ansible
+  - gettingstarted
 published: true
 ---
 

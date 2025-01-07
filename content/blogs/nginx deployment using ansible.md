@@ -6,8 +6,8 @@ image: /blogs-img/nginx.jpg
 alt: Ansible nginx
 ogImage: /blogs-img/nginx.jpg
 tags:
-  - Nginx
-  - Ansible
+  - nginx
+  - ansible
 published: true
 ---
 
