@@ -15,7 +15,7 @@ published: true
 
 [Ansible](https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ) is an open-source automation tool that simplifies IT tasks like configuration management, application deployment, and orchestration. With its agentless architecture, Ansible uses SSH to communicate with systems, making it lightweight and easy to set up. It relies on declarative YAML-based playbooks, allowing you to define tasks in a simple and human-readable format.
 
-Whether you're managing a single server or an entire data center, Ansible helps automate repetitive tasks, ensuring consistency and saving time. This blog will guide you through setting up Ansible locally, so you can start exploring its powerful automation capabilities right from your machine.
+Whether youre managing a single server or an entire data center, Ansible helps automate repetitive tasks, ensuring consistency and saving time. This blog will guide you through setting up Ansible locally, so you can start exploring its powerful automation capabilities right from your machine.
 
 ### Prerequisites
 
@@ -29,7 +29,7 @@ These are requirement for Ansible setup:
 
 #### Setting up Ubuntu
 
-setting up Ubuntu VM is a simple process, i'm using Virtualbox for launch this VM since i have plan to create multi node in this article i'm gonna setup 2 Ubuntu VM as ansible nodes. all you need to setup is attaching NAT Network for internet connection, and Host-only Network for communicate with host machine. then update and upgrade your Ubuntu VM using
+setting up Ubuntu VM is a simple process, im using Virtualbox for launch this VM since i have plan to create multi node in this article im gonna setup 2 Ubuntu VM as ansible nodes. all you need to setup is attaching NAT Network for internet connection, and Host-only Network for communicate with host machine. then update and upgrade your Ubuntu VM using
 
 ```bash
 sudo apt update && sudo apt upgrade
@@ -41,7 +41,7 @@ then upgrade python and match it with ansible requirement.
 
 #### Setting up ansible
 
-install ansible on your local machine, since i'm using mac i'll be use brew to install it on my mac
+install ansible on your local machine, since im using mac i will be use brew to install it on my mac
 
 ```bash
 brew install ansible
@@ -57,11 +57,11 @@ ansible --version
 
 #### Setting up the Inventory File
 
-This `inventory file` contains information about the hosts that we created before (Ubuntu VMs). The inventory file also often used to set variables that will be valid only for specific host or groups, in order to be used within `playbooks` and `templates`. to edit contents of Ansible inventory open it on `/etc/ansible/hosts` if this folder path doesn't exist you just need to create it.
+This `inventory file` contains information about the hosts that we created before (Ubuntu VMs). The inventory file also often used to set variables that will be valid only for specific host or groups, in order to be used within `playbooks` and `templates`. to edit contents of Ansible inventory open it on `/etc/ansible/hosts` if this folder path doesnt exist you just need to create it.
 
 > you are free to create inventory files in any location, but usually is on `/etc/ansible/hosts`
 
-since i have 2 Ubuntu VMs this is my inventory file configuration, i define a group named `nodes` with 2 different VMs in it, each identified by a custom alis: `ubuntu1` and `ubuntu2` (i'm using the Ubuntu VM hostname for this). and be sure to assign the IPs with the IP addresses of your Ubuntu VMs on `ansible_host` and your username on each VMs on `ansible_user` .
+since i have 2 Ubuntu VMs this is my inventory file configuration, i define a group named `nodes` with 2 different VMs in it, each identified by a custom alis: `ubuntu1` and `ubuntu2` (im using the Ubuntu VM hostname for this). and be sure to assign the IPs with the IP addresses of your Ubuntu VMs on `ansible_host` and your username on each VMs on `ansible_user` .
 
 ```bash [/etc/ansible/hosts]
 [nodes]
@@ -91,5 +91,5 @@ ubuntu1 | SUCCESS => {
 }
 ```
 
-that's it! we are done setting up Ansible on our Local Environment.
-In the next post, I'll be exploring Ansible playbooks to deploy applications.
+thats it! we are done setting up Ansible on our Local Environment.
+In the next post, I will be exploring Ansible playbooks to deploy applications.
