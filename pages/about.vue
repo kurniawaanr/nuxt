@@ -14,8 +14,8 @@ useHead({
 defineOgImageComponent('About', {
   headline: 'Greetings 👋',
   title: navbarData.homeTitle,
-  description: 'Dive into web development with me and learn Js, Ts, Vue, Nuxt, Docker, k8s',
-  link: '/riyad.jpg',
+  description: 'Dive into infrastructure with me',
+  link: '/kur.jpg',
 })
 </script>
 
