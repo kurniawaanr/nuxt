@@ -35,4 +35,4 @@ the system that im running on:
 
 ### Fix
 
-cause the problem is on the version of ansible core on my control node which is ansible 2.18 and the host node that have python 3.6 pre-installed
+cause the problem is on the version of ansible core on my control node which is ansible 2.18 and the host node that have python 3.6 pre-installed.
